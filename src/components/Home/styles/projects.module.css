@@ -1,0 +1,32 @@
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.span {
+  background-color: whitesmoke;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.7rem;
+  text-align: center;
+  width: 50%;
+}
+
+@media (max-width: 1030px) {
+  .title {
+    width: 75%;
+  }
+}
+
+@media (max-width: 430px) {
+  .title {
+    width: 100%;
+    font-size: 1.7rem;
+  }
+}
