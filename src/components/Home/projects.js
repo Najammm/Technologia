@@ -3,6 +3,9 @@ import styles from "./styles/projects.module.css";
 import { Col, Row } from "antd";
 
 import ProjectCards from "./projectCards";
+import image1 from "../../../public/Images/project1image.webp";
+import image2 from "../../../public/Images/project2image.webp";
+import image3 from "../../../public/Images/project3image.webp";
 
 function Projects() {
   return (
@@ -23,13 +26,23 @@ function Projects() {
           lg={14}
           style={{ backgroundColor: "#DEE0FF", borderRadius: "25px" }}
         >
-          <ProjectCards text1="saf" text2="sfds" />
+          <ProjectCards
+            text="01."
+            heading="sfds"
+            paragraph="Convenience, savings and rewards at your fingertips"
+            img={image1}
+          />
         </Col>
         <Col
           lg={{ span: 9, offset: 1 }}
           style={{ backgroundColor: "#F8F0E6", borderRadius: "25px" }}
         >
-          <ProjectCards text1="saf" text2="sfds" />
+          <ProjectCards
+            text="saf"
+            heading="sfds"
+            paragraph="Convenience, savings and rewards at your fingertips"
+            img={image2}
+          />
         </Col>
       </Row>
 

@@ -1,14 +1,23 @@
 import React from "react";
 import styles from "./styles/projectCards.module.css";
+import Image from "next/image";
 
-function ProjectCards({ text1, text2 }) {
+function ProjectCards({ text, heading, paragraph, img }) {
   return (
     <div className={styles.main}>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <span>{text1}</span>
-        <span>{text2}</span>
+        <span>{text}</span>
+        <span>Showcase</span>
       </div>
-      <div></div>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <div>
+          <h3>{heading}</h3>
+          <p>{paragraph}</p>
+        </div>
+        <div>
+          <Image src={img} height={"auto"} width={"auto"} />
+        </div>
+      </div>
       <div></div>
     </div>
   );
