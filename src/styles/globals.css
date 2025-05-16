@@ -12,6 +12,10 @@
   --icons: #5f67e1;
 }
 
+#offcanvasNavbar-expand-lg {
+  z-index: 9999;
+}
+
 /* GAP BETWEEN EVERY SECTION OF EVERY PAGE */
 
 .pages_main {

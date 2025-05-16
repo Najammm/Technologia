@@ -5,20 +5,19 @@ import Image from "next/image";
 function ProjectCards({ text, heading, paragraph, img }) {
   return (
     <div className={styles.main}>
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <span>{text}</span>
-        <span>Showcase</span>
+      <div className={styles.section1}>
+        <span className={styles.number}>{text}</span>
+        <span className={styles.show}>Showcase</span>
       </div>
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div className={styles.section2}>
         <div>
-          <h3>{heading}</h3>
-          <p>{paragraph}</p>
+          <h3 className={styles.heading}>{heading}</h3>
+          <p className={styles.text}>{paragraph}</p>
         </div>
         <div>
-          <Image src={img} height={"auto"} width={"auto"} />
+          <Image src={img} height={"300"} width={"90%"} />
         </div>
       </div>
-      <div></div>
     </div>
   );
 }

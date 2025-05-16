@@ -28,7 +28,7 @@ function Projects() {
         >
           <ProjectCards
             text="01."
-            heading="sfds"
+            heading="SCUOLA"
             paragraph="Convenience, savings and rewards at your fingertips"
             img={image1}
           />
@@ -38,15 +38,28 @@ function Projects() {
           style={{ backgroundColor: "#F8F0E6", borderRadius: "25px" }}
         >
           <ProjectCards
-            text="saf"
-            heading="sfds"
-            paragraph="Convenience, savings and rewards at your fingertips"
+            text="02."
+            heading="JOILE"
+            paragraph="Private trust management and trading platform"
             img={image2}
           />
         </Col>
       </Row>
 
       {/* END */}
+      <Row>
+        <Col
+          lg={24}
+          style={{ backgroundColor: "#b3a99b", borderRadius: "25px" }}
+        >
+          <ProjectCards
+            text="01."
+            heading="SCUOLA"
+            paragraph="Convenience, savings and rewards at your fingertips"
+            img={image3}
+          />
+        </Col>
+      </Row>
     </div>
   );
 }
