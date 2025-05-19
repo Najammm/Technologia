@@ -16,6 +16,10 @@
   z-index: 9999;
 }
 
+.slick-next {
+  right: 0;
+}
+
 /* GAP BETWEEN EVERY SECTION OF EVERY PAGE */
 
 .pages_main {

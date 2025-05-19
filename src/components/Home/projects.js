@@ -21,7 +21,7 @@ function Projects() {
 
       {/* SECTION 2 */}
 
-      <Row>
+      <Row style={{ margin: "20px 0 50px 0" }}>
         <Col
           lg={14}
           style={{ backgroundColor: "#DEE0FF", borderRadius: "25px" }}

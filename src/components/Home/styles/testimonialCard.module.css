@@ -1,0 +1,13 @@
+.text {
+  font-size: 22px;
+  color: rgb(59, 59, 59);
+}
+.name {
+  font-weight: 700;
+}
+
+.company {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(78, 78, 78);
+}

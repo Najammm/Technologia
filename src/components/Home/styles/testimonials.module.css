@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.span {
+  background-color: whitesmoke;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.carousal {
+  width: 80%;
+}
+
+.button {
+  border-radius: 50%;
+  border-color: transparent;
+  padding: 10px 15px;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: var(--icons);
+  color: white;
+  transition: all 0.3s;
+}
+
+@media (max-width: 1030px) {
+  .carousal {
+    width: 100%;
+  }
+}
