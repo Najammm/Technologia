@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import styles from "./styles/imageCarousal.module.css";
+import styles from "./styles/imageScroll.module.css";
 import { useScroll, useTransform, motion, scale } from "framer-motion";
 
 import Image from "next/image";
