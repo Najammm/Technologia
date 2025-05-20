@@ -5,6 +5,7 @@ import ImageScroll from "@/components/Home/imageScroll";
 import Services from "@/components/Home/services";
 import Projects from "@/components/Home/projects";
 import Testimonials from "@/components/Home/testimonials";
+import FourSections from "@/components/Home/fourSections";
 
 function index() {
   return (
@@ -15,6 +16,7 @@ function index() {
       <Services />
       <Projects />
       <Testimonials />
+      <FourSections />
     </div>
   );
 }
