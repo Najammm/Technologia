@@ -5,7 +5,13 @@
 }
 
 .myContainer {
-  padding: 0 5rem !important;
+  padding: 0 8rem !important;
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 2.7rem;
 }
 
 :root {
@@ -42,9 +48,18 @@
 
 /*  */
 
+@media (max-width: 1030px) {
+  .myContainer {
+    padding: 0 4rem !important;
+  }
+}
+
 @media (max-width: 430px) {
   .myContainer {
     padding: 0 2rem !important;
+  }
+  .title {
+    font-size: 1.7rem;
   }
   .pages_main {
     gap: 5rem;

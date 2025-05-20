@@ -6,6 +6,7 @@ import Services from "@/components/Home/services";
 import Projects from "@/components/Home/projects";
 import Testimonials from "@/components/Home/testimonials";
 import FourSections from "@/components/Home/fourSections";
+import Stats from "@/components/Home/stats";
 
 function index() {
   return (
@@ -17,6 +18,7 @@ function index() {
       <Projects />
       <Testimonials />
       <FourSections />
+      <Stats />
     </div>
   );
 }

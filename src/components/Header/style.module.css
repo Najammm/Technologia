@@ -1,6 +1,6 @@
 .navbar_main {
   background-color: transparent !important;
-  padding: 1rem 4rem !important;
+  padding: 1rem 6rem !important;
   margin: 0 !important;
   position: fixed;
   width: 100%;
@@ -39,6 +39,12 @@
 .scrolled .logo,
 .scrolled .nav_list {
   color: rgb(0, 0, 0);
+}
+
+@media (max-width: 1030px) {
+  .navbar_main {
+    padding: 1rem 4rem !important;
+  }
 }
 
 @media (max-width: 770px) {
