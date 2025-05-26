@@ -46,6 +46,21 @@
   background-color: white !important;
 }
 
+/* Hero banner All Pages main */
+
+.main {
+  background: radial-gradient(#181658, #170d25);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages_title {
+  color: white;
+  font-size: 3rem;
+}
+
 /*  */
 
 @media (max-width: 1030px) {
