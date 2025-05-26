@@ -38,11 +38,6 @@ function Tabs() {
         {/* TEXT */}
         <div className={styles.ass} style={{ textAlign: "center" }}>
           <h3 className="title">Industries we’ve excelled in</h3>
-          <div className={styles.button_div}>
-            <button className={styles.btn}>Telemedicine</button>
-            <button className={styles.btn}>Dating Apps</button>
-            <button className={styles.btn}>Fintech</button>
-          </div>
         </div>
 
         {/* END */}
@@ -55,7 +50,7 @@ function Tabs() {
               style={{ backgroundColor: card.color }}
               className={styles.card_main}
             >
-              <Col lg={12} className={styles.text_side}>
+              <Col lg={12} md={24} xs={24} className={styles.text_side}>
                 <div>
                   <span className={styles.span}>Industries We Serve</span>
                 </div>
@@ -69,8 +64,18 @@ function Tabs() {
                   </button>
                 </div>
               </Col>
-              <Col lg={{ span: 10, offset: 2 }}>
-                <Image src={card.img} width={450} height={"auto"} />
+              <Col
+                lg={{ span: 10, offset: 2 }}
+                md={24}
+                xs={24}
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <Image
+                  src={card.img}
+                  width={450}
+                  height={"auto"}
+                  className={styles.img}
+                />
               </Col>
             </Row>
           ))}

@@ -78,7 +78,7 @@ function Header() {
                       <NavDropdown.Item href="#">Service 3</NavDropdown.Item>
                     </NavDropdown>
                   </div>
-                  <Nav.Link className={styles.nav_list} href="#">
+                  <Nav.Link className={styles.nav_list} href="/about">
                     About
                   </Nav.Link>
                   <Nav.Link className={styles.nav_list} href="#">
